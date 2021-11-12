@@ -4,19 +4,19 @@ except:
 
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
 
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "ed304705d0a7b0e271d35cbd03b11490"
+        API_ID = 8786716
+        BOT_TOKEN = "2122516546:AAHA7ESwDskTb0ENABxABleB6A7QIy_V9jE"
+        BASE_URL_OF_BOT = "http://67.207.86.56"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [1277798523,-1001599418840,-1001591164010]
+        OWNER_ID = 1865772938
 
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -25,7 +25,7 @@ except:
         EDIT_SLEEP_SECS = 10
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2147483648
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -38,7 +38,7 @@ except:
 
         # DB URI for access
         DATABASE_URL = (
-            "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+            "dbname=tortk user=postgres password=dark-dark host=127.0.0.1 port=5432"
         )
 
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
@@ -71,10 +71,10 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 500
 
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 80
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
